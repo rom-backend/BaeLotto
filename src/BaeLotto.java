@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class BaeLotto {
@@ -15,6 +17,8 @@ public class BaeLotto {
             for (int j = 0; j < 6; j++) {
                 array.add(j, (int) (Math.random() * 45)+1); //랜덤수 배열에 넣기
             }
+
+            Collections.sort(array);
 
             String sLottoNumb = "";
             
