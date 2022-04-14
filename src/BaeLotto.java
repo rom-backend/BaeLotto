@@ -8,7 +8,9 @@ public class BaeLotto {
 
         Scanner scan = new Scanner(System.in);
 
-        int scanNum = scan.nextInt();
+    //    int scanNum = scan.nextInt();
+        int scanNum = 5; //
+
         /*****로또 입력 받은 수 만큼 반복*****/
         for(int i = 0; i < scanNum; i++) {
 
